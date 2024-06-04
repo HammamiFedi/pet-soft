@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-dashboard {
+  @apply grid grid-rows-[45px_300px_500px] gap-4 md:h-[470px] md:grid-cols-3 md:grid-rows-[45px_1fr];
+}
